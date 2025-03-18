@@ -1,0 +1,22 @@
+name: pokemon_card_viewer
+description: A simple app to view Pokémon cards using Flutter.
+
+publish_to: 'none' # Remove this line if you're planning to publish it.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.18.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.3.0
+  cached_network_image: ^3.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
